@@ -1,0 +1,87 @@
+
+# Web Application Development (WAD621S) – Lab 5: Styling Lab
+
+## Overview
+This lab focuses on **styling web components** using CSS. The goal was to practice designing a consistent, responsive, and interactive interface for various components such as cards, buttons, chips, forms, and navigation.
+
+---
+
+## Features Implemented
+
+### **1. Navigation Bar**
+- Horizontal navigation bar with active link highlighting.
+- Theme toggle button to switch between light and dark themes.
+
+### **2. Cards**
+- Cards with images, titles, and descriptive text.
+- Hover effect with smooth transitions.
+
+### **3. Buttons**
+- Primary, success, warning, info, and outline variants.
+- Buttons with icons (where applicable).
+- Disabled state for buttons.
+
+### **4. Chips**
+- Rounded filter chips with active state.
+- Close buttons on chips.
+- Interactive styling on hover and click.
+
+### **5. Forms**
+- Styled labels, inputs, textareas.
+- Focus state effects.
+- Submit button functionality.
+
+### **6. Responsive Design**
+- Mobile-friendly layout.
+- Grid adjusts based on screen size.
+- Navigation and buttons adapt to smaller screens.
+
+### **7. Theme Switching**
+- Light and dark mode implemented using **CSS variables**.
+- Toggle button dynamically changes the theme.
+
+---
+
+## Challenges Encountered
+- Implementing **theme toggle** functionality that correctly updates colors across all components.
+- Ensuring **form submit button** works and provides visual feedback.
+- Styling **chips** to look interactive and handle both active and close states.
+- Making the layout **fully responsive** on mobile devices without breaking design.
+- Adding **icons to buttons** while keeping consistent spacing and alignment.
+- Testing all components to work in **different browsers** and screen sizes.
+
+---
+
+## How to Use
+
+1. Clone or download this repository.
+2. Open `index.html` in a web browser.
+3. Interact with components:
+   - Use the **Toggle Theme** button in the navbar.
+   - Fill in the **form** and click **Submit**.
+   - Click on **chips** to activate or remove them.
+   - Hover over **cards** and **buttons** to see transitions.
+
+---
+
+## Technologies Used
+- **HTML5** – Structure of the webpage
+- **CSS3** – Styling, transitions, and responsive design
+- **JavaScript** – Theme toggle, form submission, and interactive components
+
+---
+
+## Notes
+- The theme toggle changes between light and dark themes using CSS variables.
+- Form submission currently displays an alert message confirming submission.
+- Chips and buttons are fully interactive.
+
+---
+
+## Author
+**Name:** Ndilimeke Frans  
+**Course:** Web Application Development (WAD621S)  
+**Lab:** 5 – Styling Lab
+
+---
+
