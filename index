@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 05 - Styled Components</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#cards">Cards</a></li>
+      <li><a href="#buttons">Buttons</a></li>
+      <li><a href="#chips">Chips</a></li>
+      <li><a href="#forms">Forms</a></li>
+    </ul>
+    <button id="theme-toggle" class="btn btn-outline">Toggle Theme</button>
+  </nav>
+
+  <!-- Cards Section -->
+  <section id="cards" class="card-grid">
+    <div class="card">
+      <img src="nature.jpg" alt="Nature">
+      <div class="card-content">
+        <h3>Beautiful Nature</h3>
+        <p>Explore the serene beauty of untouched landscapes and vibrant forests.</p>
+        <button class="btn btn-primary">Learn More</button>
+      </div>
+    </div>
+
+<div class="card">
+      <img src="destination.jpg" alt="Travel">
+      <div class="card-content">
+        <h3>Travel Destinations</h3>
+        <p>Find your next adventure with breathtaking destinations worldwide.</p>
+        <button class="btn btn-success">Book Now</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="card-content">
+        <h3>Modern Technology</h3>
+        <p>Stay updated with the latest trends in software, AI, and innovations.</p>
+        <button class="btn btn-info">Discover</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buttons Section -->
+  <section id="buttons">
+    <h2>Buttons</h2>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-outline">Outline</button>
+    <button class="btn" disabled>Disabled</button>
+    <button class="btn btn-primary"><span>⭐</span> With Icon</button>
+  </section>
+
+  <!-- Chips Section -->
+  <section id="chips">
+    <h2>Chips</h2>
+    <div class="chip">🔬 Science <span class="close">&times;</span></div>
+    <div class="chip active">💻 Technology <span class="close">&times;</span></div>
+    <div class="chip">⚙️ Engineering <span class="close">&times;</span></div>
+    <div class="chip">📐 Mathematics <span class="close">&times;</span></div>
+  </section>
+
+  <!-- Forms Section -->
+  <section id="forms">
+    <h3>Form</h3>
+   <form id="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" required>
+
+  <label for="message">Message:</label>
+  <textarea name="message" id="message" rows="4" required></textarea>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+   
+  </section>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
+
+
+
+
